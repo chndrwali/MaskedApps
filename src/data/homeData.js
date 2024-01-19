@@ -19,27 +19,6 @@ const steps = {
   ],
 };
 
-const featured = {
-  title: 'Keunggulan Aplikasi',
-  features: [
-    {
-      id: 0,
-      title: 'Klasifikasi 3 Jenis Orang Menggunakan Masker',
-      desc: 'Aplikasi ini dapat mengklasifikasikan orang menggunakan masker menjadi 3 jenis dan kategori, serta persentase kecocokan.',
-    },
-    {
-      id: 1,
-      title: 'Mudah Digunakan',
-      desc: 'Aplikasi ini dapat digunakan oleh siapa saja tanpa harus mengerti tentang Machine Learning.',
-    },
-    {
-      id: 2,
-      title: 'End-to-End',
-      desc: 'Aplikasi ini mengintegrasikan model Machine Learning secara End-to-End berbasis Web, sehingga pengguna tidak perlu menginstall Python dan menjalankan model Machine Learning pada Kode Notebook Python.',
-    },
-  ],
-};
-
 const footer = {
   copy: '2024 Masked Apps | Tugas Sistem Pakar',
   twitter: {
@@ -57,5 +36,5 @@ const footer = {
 };
 
 export {
-  steps, featured, footer,
+  steps, footer,
 };
