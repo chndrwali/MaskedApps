@@ -1,5 +1,5 @@
 const contributors = {
-  title: 'Meet our team',
+  title: 'Kontributor',
   developers: [
     {
       id: 0,
