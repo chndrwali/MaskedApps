@@ -4,7 +4,7 @@ const steps = {
     {
       id: 0,
       title: 'Pilih Gambar',
-      desc: 'Pilih gambar sampah yang ingin diklasifikasikan.',
+      desc: 'Pilih gambar orang memakai masker yang ingin diklasifikasikan.',
     },
     {
       id: 1,
