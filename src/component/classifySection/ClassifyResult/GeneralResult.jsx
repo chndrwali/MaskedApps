@@ -10,12 +10,12 @@ function GeneralResult({
   return (
     <div className="p-4 flex flex-wrap">
       <div className="w-[80%] flex flex-wrap justify-start items-center mb-2">
-        <span className="text-sm w-1/2 text-dark sm:text-base md:text-lg">Jenis</span>
-        <span className="text-sm text-dark font-semibold sm:text-base md:text-lg" ref={garbageTypeRef} />
-        <span className="text-sm w-1/2 text-dark sm:text-base md:text-lg">Kategori</span>
-        <span className="text-sm text-dark font-semibold sm:text-base md:text-lg" ref={garbageCategoryRef} />
-        <span className="text-sm w-1/2 text-dark sm:text-base md:text-lg">Tingkat Kecocokan</span>
-        <span className="text-sm text-dark font-semibold sm:text-base md:text-lg" ref={garbageProbabilityRef} />
+        <span className="text-sm w-1/2 text-black/75 sm:text-base md:text-lg">Jenis</span>
+        <span className="text-sm text-black/75 font-semibold sm:text-base md:text-lg" ref={garbageTypeRef} />
+        <span className="text-sm w-1/2 text-black/75 sm:text-base md:text-lg">Kategori</span>
+        <span className="text-sm text-black/75 font-semibold sm:text-base md:text-lg" ref={garbageCategoryRef} />
+        <span className="text-sm w-1/2 text-black/75 sm:text-base md:text-lg">Tingkat Kecocokan</span>
+        <span className="text-sm text-black/75 font-semibold sm:text-base md:text-lg" ref={garbageProbabilityRef} />
       </div>
       <div className="w-[20%] flex flex-wrap justify-start items-center mb-2">
         <img

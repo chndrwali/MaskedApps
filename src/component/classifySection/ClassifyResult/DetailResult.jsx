@@ -9,10 +9,10 @@ function DetailResult({ results }) {
         {results.map((result, index) => (
           <div key={index} className="w-full flex flex-wrap justify-start items-center gap-1 mb-1">
             {/* Class Name */}
-            <span className="text-xs text-dark font-semibold sm:text-sm md:text-base">{result.className}</span>
+            <span className="text-xs text-black/75 font-semibold sm:text-sm md:text-base">{result.className}</span>
             <div className="w-full h-4 bg-light/40 rounded relative overflow-hidden">
               {/* Progress Bar */}
-              <div className="w-[80%] h-full bg-primary rounded absolute" style={{ width: `${(result.probability * 100).toFixed(2)}%` }}>
+              <div className="w-[80%] h-full bg-gradient-to-tr from-violet-500 via-gray-800 to-cyan-600 rounded absolute" style={{ width: `${(result.probability * 100).toFixed(2)}%` }}>
                 {/* Percentage Probability */}
                 <span className="text-xs text-white font-semibold md:text-sm absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
                   {(result.probability * 100).toFixed(2)}
