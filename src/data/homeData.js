@@ -9,7 +9,7 @@ const steps = {
     {
       id: 1,
       title: 'Klasifikasikan',
-      desc: 'Model Machine Learning akan mengklasifikasikan sampah yang dipilih berdasarkan 3 jenis orang menggunakan masker, salah memakai masker dan tidak menggunakan masker.',
+      desc: 'Model Machine Learning akan mengklasifikasikan orang yang dipilih berdasarkan 2 jenis orang menggunakan masker, salah memakai masker dan tidak menggunakan masker.',
     },
     {
       id: 2,
