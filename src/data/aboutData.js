@@ -37,6 +37,18 @@ const contributors = {
         twitter: 'https://twitter.com/',
       },
     },
+    {
+      id: 3,
+      name: 'Andra Syuryahman',
+      title: '02032011022',
+      image: '/img/contributors/andra.webp',
+      alt: 'Andra Syuryahman',
+      socials: {
+        linkedin: 'https://www.linkedin.com/in/',
+        instagram: 'https://instagram.com/andrasyrmn',
+        twitter: 'https://twitter.com/',
+      },
+    },
   ],
 };
 
