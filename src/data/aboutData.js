@@ -49,6 +49,18 @@ const contributors = {
         twitter: 'https://twitter.com/',
       },
     },
+    {
+      id: 4,
+      name: 'Gege Hanif Patiro Syaban',
+      title: '02032011030',
+      image: '/img/contributors/gege.webp',
+      alt: 'Gege Hanif Patiro Syaban',
+      socials: {
+        linkedin: 'https://www.linkedin.com/in/',
+        instagram: 'https://instagram.com/gegehanif11',
+        twitter: 'https://twitter.com/',
+      },
+    },
   ],
 };
 
